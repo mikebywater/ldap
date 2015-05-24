@@ -1,0 +1,21 @@
+{
+    "name": "mikebywater/LDAP",
+    "description": "My simple, crude LDAP package",
+    "license": "MIT",
+    "keywords": ["LDAP"],
+    "authors": [
+        {
+            "name": "Mike Bywater",
+            "email": "mike.j.bywater@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mikebywater\\LDAP\\": "src"
+        }
+    }
+}
