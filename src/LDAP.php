@@ -37,13 +37,12 @@ class LDAP
 
     public function  __construct()
     {
+        $this->ldapServer = $_ENV['LDAP_SERVER'];
+        $this->domain = $_ENV['LDAP_DOMAIN'];
+        $this->basedsn = $_ENV['LDAP_BASE_DSN'];
 
-        $this->ldapServer = LDAP_SERVER;
-        $this->domain = LDAP_DOMAIN;
-        $this->basedsn = LDAP_BASE_DSN;
-
-        $this->admin_user = LDAP_ADMIN_USER;
-        $this->admin_password = LDAP_ADMIN_PASSWORD;
+        $this->admin_user = $_ENV['LDAP_ADMIN_USER'];
+        $this->admin_password = $_ENV['LDAP_ADMIN_PASSWORD'];
 
         $this->filter = "(&(objectCategory=Person)(sAMAccountName=*))";
         $this->attributes = array();
