@@ -1,5 +1,5 @@
 {
-    "name": "mikebywater/LDAP",
+    "name": "mikebywater/ldap",
     "description": "My simple, crude LDAP package",
     "license": "MIT",
     "keywords": ["LDAP"],
