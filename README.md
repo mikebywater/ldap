@@ -4,10 +4,19 @@
 
 ## Installation
 
+### Composer
+
+To install simply put the following in your composer json file
+
 ```
 "require": {
   		"mikebywater/ldap": "dev-master"
 },
+```
+
+next simply run
+```
+composer update
 ```
 
 
