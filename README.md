@@ -4,6 +4,12 @@
 
 ## Installation
 
+'''
+	"require": {
+  "mikebywater/ldap": "dev-master"
+	},
+	'''
+
 
 ## Parameters
 
