@@ -5,9 +5,9 @@
 ## Installation
 
 ```
-	"require": {
-  "mikebywater/ldap": "dev-master"
-	},
+"require": {
+  		"mikebywater/ldap": "dev-master"
+},
 ```
 
 
